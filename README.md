@@ -6,6 +6,11 @@
 [![NordicESMhub chat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://nordicesmhub.zulip.org)
 
 
+## Call
+
+- https://neic.no/news/2019/01/17/annual-open-invitation/
+- https://neic.no/news/2019/03/13/open-call/
+
 ## Problems
 
 

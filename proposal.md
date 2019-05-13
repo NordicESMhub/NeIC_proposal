@@ -7,6 +7,9 @@
 
 ## Significance
 
+- Open data requirements for Nordic research
+- FAIR climate data (Nordic) as a facilitator of research collaboration
+
 **Benefits**
 
 - More Earth System Modeling simulations done in less time
@@ -21,6 +24,10 @@
 ## Research community
 
 ## National and international context
+
+Large international projects (e.g. [CMIP](https://www.wcrp-climate.org/wgcm-cmip), [CORDEX](https://www.cordex.org/), [AeroCom](https://aerocom.met.no/Welcome.html), [PEEX](http://www.atm.helsinki.fi/FCoE/)) have resources to develop/exploit data management infrastructures (e.g. [ESGF](https://esgf.llnl.gov/)) whereas smaller national/Nordic projects rely more on generic 3rd party infrastructures for data management (not always well suited to the task). 
+Is there scope for a collaboration project to support/develop/help Nordic research projects utilize available data infrastructures and services? Collaboration on data management and FAIR data for climate research.
+
 
 ## The Nordics and NeIC
 

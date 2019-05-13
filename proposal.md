@@ -42,6 +42,12 @@ Is there scope for a collaboration project to support/develop/help Nordic resear
 
 #### Activity A:
 
+
+Remove comittment on the development of new ESMValTool diagnostic modules but put more emphasis on the usage of ESMValTool with a focus on the Nordic countries.
+
+- Enable the development of new diagnostic modules in ESMValTool (MetNo lead)
+- Tutorial or sharing expertise on these particular aspects
+
 - Design 3 ESMValTool diagnostic modules of interest to the Nordic countries
 - Development of diagnostic modules of interest to the Nordic countries
 - Deployment of the diagnostic modules
@@ -54,13 +60,24 @@ Is there scope for a collaboration project to support/develop/help Nordic resear
 - A Common platform for common EC-EARTH, NorESM and GISS modelE analysis comparisons for Nordics to facilitate scientific collaboration
 - 3 published diagnostic workflows applicable to norESM, EC-EARTH and GISS modelE
 - 1 online tutorial for learning and running the new ESMValTool workflows
+- 1 workshop/hackathon on how to use ESMValTool and how applicable it can be to the Nordic countries
 
 #### Activity B: FAIR Climate data for Nordics
 
 - ESGF related activities (to be described)
-- Analysis on the state of the art of FAIR data in Climate
+	- Involvement of ESGF admin to enable FAIR climate data
+	- Strenghen existing ESGF networking activities in the Nordics (Norway, Sweden, Denmark and Finland)
+	
+- How can we apply current practices for simulation outside CMIP?
+	- Data stewarship workshop (GO-FAIR) 
+	- EOSC-Nordic & NICEST 
+
+- Is it possible to use existing tools ESDOC, ESGF to make our data FAIR?
+
+- Analysis on the state of the art of FAIR data in Climate and existing tool to assess
 		- ESDOC analysis, can we use ESDOC for Nordic other climate simulations, does it need to be expanded? 
 		- Make sure current initiatives are taken into account
+		- How applicable is it outside CMIP?
 - FAIR Climate data in practice
 	- Implementation of the recommendations, at least in "Demo" mode to demonstrate and validate the chosen approach
 	- Training
@@ -89,9 +106,21 @@ Is there scope for a collaboration project to support/develop/help Nordic resear
 
 - 1 training material on workflow tools for ESM (cylc, galaxy or snakemake)
 - 1 training material on performance analysis for NorESM, EC-EARTH and GISS modelE
-- 1 Train the Train workshop on Performance Optimisation and Productivity of Nordic Earth System Modeling
-- Containerization (singularity/docker) for running NorESM, EC-EARTH and GISS modelE
-- Benchmark for EuroHPC with norESM, and EC-EARTH and GISS modelE, using a common workflow manager (cylc, galaxy or snakemake)
+- Best practices guides:
+	- on how to run ESM 
+	- on how to evaluate ESM when porting on new machine, especially for EuroHPC
+- How much development would require our models (EC-EARTH, norESM) for running on the next EuroHPC
+	- Analysis on what needs to be done and identify bottlenecks for all involved models
+		- I/O efficiency
+		- lack of GPU support
+	- Understanding on what we can do and involvement with Nordic EuroHPC
+(- Containerization (singularity/docker) for running NorESM, EC-EARTH and GISS modelE) <-- To clarify
+
+**CLARIFY SUB-ACTIVITY ABOUT BENCHMARK**
+
+- Common framework for benchmark for EuroHPC with norESM, and EC-EARTH and GISS modelE, 
+	- Investigate whether using a common workflow manager (cylc, galaxy or snakemake) is helpful
+	- Get in touch with Nordic EuroHPC representatives for Benchmark
 - 1 face to face meeting with Nordic EuroHPC representatives to coordinate feedback on requirement for efficient use of resources specifically for the climate community
 - 1 public report on the best approach for using efficiently EuroHPC for the Nordic Climate Community with guidance on performance versus energy efficiency
 

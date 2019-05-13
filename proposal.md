@@ -42,23 +42,50 @@ Is there scope for a collaboration project to support/develop/help Nordic resear
 
 #### Activity A:
 
+- Design 3 ESMValTool diagnostic modules of interest to the Nordic countries
+- Development of diagnostic modules of interest to the Nordic countries
+- Deployment of the diagnostic modules
+- Development and publications of diagnostic workflows (for instance in the Galaxy Toolshed) to demonstrate the usability of the 3 newly developed ESMValTools for EC-EARTH, NorESM and GISS modelE 
+- Development of educational material for using the 3 new ESMValTool and associated workflows
+
+**Milestones and deliveries**
+
 - 3 ESMValTool diagnostic modules of interest to Nordic countries (eg, polar lows, European and Greenland blocking events) with strong emphasis on (high-latitude) observations (and "observation simulators" to some extent) 
 - A Common platform for common EC-EARTH, NorESM and GISS modelE analysis comparisons for Nordics to facilitate scientific collaboration
-
+- 3 published diagnostic workflows applicable to norESM, EC-EARTH and GISS modelE
+- 1 online tutorial for learning and running the new ESMValTool workflows
 
 #### Activity B: FAIR Climate data for Nordics
+
+- ESGF related activities (to be described)
+- Analysis on the state of the art of FAIR data in Climate
+		- ESDOC analysis, can we use ESDOC for Nordic other climate simulations, does it need to be expanded? 
+		- Make sure current initiatives are taken into account
+- FAIR Climate data in practice
+	- Implementation of the recommendations, at least in "Demo" mode to demonstrate and validate the chosen approach
+	- Training
+
+**Milestones and deliveries**
 
 - 1  face to face training for ESGF publication and regular virtual meeting for ESGF admin
 - 1  face to face training for learning how to publish on ESGF node 
 - 1 hackathon with FAIR specialists and ESM specialists to understand what needs to be done for making Climate data FAIR (for norESM, EC-EARTH and GISS modelE)
+- 1 deliverable on recommendation for FAIR data in Climate (based on ESDOC analysis and hackathon).
 - 1 training material on how to generate FAIR climate data (and metadata) FAIR
-		- ESDOC analysis, can we use ESDOC for Nordic other climate simulations, does it need to be expanded? 
-		- Make sure current initiatives are taken into account
 - 1 Train the Trainer workshop on FAIR climate data using the training material developed within the project (e.g. https://indico.neic.no/event/56/).
 - 1 Data Management Plan Template for Nordic Climate Data
 
 
 #### Activity C: ESM workflows for efficiently running both NorESM, EC-EARTH and GISS modelE on EuroHPC
+
+- Define requirements for efficient and useful ESM workflows
+- Analysis of existing workflow tools (cylc, galaxy, snakemake, etc.) and how they fit to our requirements
+- Analysis of best practices for performance optimisation and productivity of ESMs
+- Development of containers for running norESM, EC-EARTH and GISS modelE
+- Performance analysis of ESM containers versus ESM "native compilations"
+- Analysis of EuroHPC requirements and how it can benefit our community
+	
+**Milestones and deliveries**
 
 - 1 training material on workflow tools for ESM (cylc, galaxy or snakemake)
 - 1 training material on performance analysis for NorESM, EC-EARTH and GISS modelE

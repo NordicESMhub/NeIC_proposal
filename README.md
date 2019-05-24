@@ -15,6 +15,7 @@
 
 
 - Climate models/tools are not specifically developed and/or tuned to provide deep insights into climate change impacts on Nordic environments, economies and societies as a whole
-- Making the best use of EUROHPC requires fundamental upgrading of the entire workflows and strategies for tackling issues related to exascale computing (access to data, hardware failures, scalability, etc.).
+- Orchestration of compute and data resources across different sites is currently not possible while necessary for an efficient execution of ESM workflows (from the creation of an ESM experiment, post-processing and long-term archiving)
+- Making the best use of EUROHPC requires fundamental upgrading of the entire workflows and strategies for tackling issues related to exascale computing (access to data, hardware failures, scalability, etc.) 
 - Insufficient e-infrastructure & services as well insufficient expertise to adapt and apply FAIR principles to Climate science
 

@@ -69,12 +69,16 @@ Two main tasks have been identified:
 
 **Task B-1: Support for Nordic ESGF hosting of CMIP6 data**
 
+*Lead*: ???
+
 Danish, Finnish, Norwegian and Swedish HPC providers currently host ESGF nodes. Although there have been considerable improvements in the ESGF software, the deployment and reliable maintenance of an ESGF node requires experience and a deep technical understanding of the hardware and ESGF software. In addition, knowledge of climate model output formats, project data reference syntax and controlled vocabularies (e.g.CMIP6) is also required. This sub-activity will continue to strengthen the collaborative efforts, knowledge sharing and skills development initiated in the NICEST project regarding the deployment and administration of ESGF nodes. 
 
 Regular (monthly) virtual meetings for the Nordic ESGF operations team will be organized and minutes will be publicly available. 
 
 
 **Task B-2: FAIR climate modeling data for Nordics**
+
+*Lead*: ???
 
 Beyond CMIP6 and CORDEX, there are Nordic and national projects that generate valuable climate data. The management of these outputs should follow FAIR and open principles. The aim of this sub-activity is to investigate whether the tools (including ES-DOC, CF, CMOR, ESGF) and techniques for managing CMIP6 data can be reused in Nordic and national projects to ensure the valuable outputs from such projects are FAIR and open. This will be achieved by bringing together data generators (ESM modelers), data managers (ESGF) and FAIR data specialists. 
 
@@ -91,44 +95,41 @@ Beyond CMIP6 and CORDEX, there are Nordic and national projects that generate va
 
 #### Activity C: ESM workflows for efficiently running both NorESM, EC-EARTH and GISS modelE on EuroHPC
 
+*Partners*: **UiO**, ?????
+
 The main objective of this activity is to develop expertise on how to run efficiently ESM workflows and facilitate the porting and deployment of Nordic ESMs on future HPCs, in particular the EuroHPC. Two main tasks have been identified:
 
 **Task C-1**: Reproducible workflows for deploying and running ESM on future HPCs
 
+*Lead*: **UiO**
+
 As part of this task an analysis of existing workflow Management systems (cylc, galaxy, snakemake, etc.) will be done and will be the basis for the definition of Nordic ESM workflow Management Systems. Mock-ups for NorESM, EC-EARTH and GISS modelIE workflows will be made available by mid-term and will facilitate benchmarking of Nordic ESMs on new HPCs and ease the deployment of Nordic ESMs on EuroHPCs. To improve reproducibility, package management system and environment management system such as conda will be tested with NorESM, EC-EARTH and GISS modelIE and containers for running these models will be deployed. The performance achieved by the containerized models will be published and made publicly available.
 
-Within High Energy Physics (e.g., CERN LHC), many solutions and services do already exist to tackle complex tasks like workflow management execution with data and compute. Those solutions are being used now by more and more scientific communities. One potential idea can be to identify some use case and evaluate the services available like job management, data catalog and orchestration. A demonstrator will be set up as part of the project.
+Within High Energy Physics (e.g., CERN LHC), many solutions and services do already exist to tackle complex tasks like workflow management execution with data and compute. Those solutions are being used now by more and more scientific communities. One potential idea can be to identify some use cases and evaluate the services available like job management, data catalog and orchestration. A demonstrator will be set up as part of the project with at least one of the Nordic ESMs. 
 
 
 **Task C-2**: Efficiency of Nordic ESMs on future euroHPC
+
+*Lead*: ???
 
 Having a common framework for analyzing the performance of Nordic ESMs can considerably reduce the cost (computing and energy efficiency) for running climate models and give us a competitive advantage for running on the future EuroHPC. 
 
 This task will focus on best practices for performance and productivity of Nordic ESMs and on understanding what we need to do to be able to run on EuroHPC.
 
-- Define requirements for efficient and useful ESM workflows
-- Analysis of existing workflow tools (cylc, galaxy, snakemake, etc.) and how they fit to our requirements
-- Analysis of best practices for performance optimisation and productivity of ESMs
-- Development of containers for running norESM, EC-EARTH and GISS modelE
-- Performance analysis of ESM containers versus ESM "native compilations"
-- Analysis of EuroHPC requirements and how it can benefit our community
 	
 **Milestones and deliveries**
 
-- **C-1.1**: 1 deliverable/report on Analysis of the Nordic ESM community needs for ESM workflow management Systems (cylc, galaxy, snakemake, etc.).
-/ Identify and classify services to be deployed for the Nordic ESM community
-Define a simple use case for the demonstrator for distributed computations *on different computing systems and data management.
-- **C-1.2**: 1 online training material for creating ESM workflows (cylc, galaxy or snakemake)
-- **C-1.3**: 1 online tutorial on best practices for package management system and environment management system for Nordic ESMs.
-- **C-1.4**: Publication of conda recipes and containers (docker, singularity) for norESM, EC-EARTH and GISS modelIE (github, conda-forge)
-- **C-2.1**: 1 workshop (face to face meeting) with national HPC providers to discuss nordic ESM involvement in EuroHPC. 
-- **C-2.2**: Best practice guides (for research and production) on how to evaluate performance of Nordic ESMs
-- **C-2.3**: Performance analysis of Nordic ESMs and comparisons between containerized versions.
-- **C-2.4**: Reports on bottlenecks that would hindrance the efficient usage of Nordic ESMs on EuroHPC and possible remediation actions (I/Os, adding GPU support, etc.) with a clear information on costs (PMs, etc.).
+- **C-1.1**: 1 deliverable/report on Analysis of the Nordic ESM community needs for ESM workflow tools (cylc, galaxy, snakemake, etc.).
+- **C-1.2**: 1 deliverable on the identification and classification of services to be deployed for the Nordic ESM community for orchestrating efficiently of ESM workflows
+- **C-1.3**: 1 demonstrator build with a simple use case for distributing computations and managing data on at least 3 different sites (within the Nordic countries). The associated deliverable will be publicly available.
+- **C-1.4**: 1 online training material for creating ESM workflows (cylc, galaxy or snakemake)
+- **C-1.5**: 1 online tutorial on best practices for package management system and environment management system for Nordic ESMs.
+- **C-1.6**: Publication of conda recipes and containers (docker, singularity) for norESM, EC-EARTH and GISS modelIE (github, conda-forge)
+- **C-2.1**: 1 workshop (face to face meeting) with national HPC providers to discuss and characterize the nordic ESM involvement in EuroHPC
+- **C-2.2**: Reports on bottlenecks that would hindrance the efficient usage of Nordic ESMs on EuroHPC and possible remediation actions (I/Os, adding GPU support, etc.) with a clear information on costs (PMs, etc.).
+- **C-2.3**: Best practice guides (for research and production) on how to evaluate performance of Nordic ESMs
+- **C-2.4**: Report on performance analysis of each Nordic ESM and comparisons with their containerized versions (docker and/or singularity).
 
-
-3 PMs for setting up the services *UiO*
-2 PMs for customizations
 
 ## Resources and viability of the anticipated e-infrastructure services
 

@@ -7,13 +7,10 @@
 
 ## Significance
 
-- Open data requirements for Nordic research
-- FAIR climate data (Nordic) as a facilitator of research collaboration
-
 **Benefits**
 
 - More Earth System Modeling simulations done in less time
-- Homogeneous workflows to post-process ESM model outputs for evaluating the impact of climate change in the Nordics (independently of the Earth System Model used i.e. NorESM, EC-EARTH or GISS modelE)
+- Homogeneous workflows to post-process ESM model outputs for evaluating the impact of climate change in the Nordics (independently of the Earth System Model used i.e. NorESM, EC-EARTH or GISS modelIE)
 - Common diagnostic tools/workflows for highlighting Climate impact in the Nordics
 - Reduce cost (performance and energy efficiency) of ESM simulations
 - Possibility to have a joint Nordic CMIP participation
@@ -23,10 +20,20 @@
 
 ## Research community
 
+The Nordic climate modeling community consists of research groups at Universities, national meteorological institutes and research institutes, and holds demonstrable world-class excellence in the field. Through international collaborations, mainly with partners within Europe and US, these Nordic groups contribute to the development of both global and regional climate models (GCMs and RCMs) and have used these highly complex and computationally demanding research tools to help understand a wide range of natural and forced phenomena within the Earth system. This research is by its very nature multi-disciplinary and multi-scale.
+
 ## National and international context
 
-Large international projects (e.g. [CMIP](https://www.wcrp-climate.org/wgcm-cmip), [CORDEX](https://www.cordex.org/), [AeroCom](https://aerocom.met.no/Welcome.html), [PEEX](http://www.atm.helsinki.fi/FCoE/)) have resources to develop/exploit data management infrastructures (e.g. [ESGF](https://esgf.llnl.gov/)) whereas smaller national/Nordic projects rely more on generic 3rd party infrastructures for data management (not always well suited to the task). 
-Is there scope for a collaboration project to support/develop/help Nordic research projects utilize available data infrastructures and services? Collaboration on data management and FAIR data for climate research.
+### Earth system modeling and CMIP
+Changes in climate, whether anthropogenic or natural, involve a complex interplay of physical, chemical, and biological processes of the atmosphere, land surface, cryosphere and ocean. Earth System Models (ESMs) are used to address e.g. anthropogenic versus natural climate change, climate variations with time scales ranging from years to millennia. ​
+An important way to get ESMs internationally recognized is the World Climate Research Program ([WCRP](https://www.wcrp-climate.org/)) sponsored Climate Model Intercomparison Projects ([CMIP](https://www.wcrp-climate.org/wgcm-cmip)) which is a unique international initiative that highlights the importance of sharing, comparing and analyzing the outcomes of global climate model simulations and to deliver high quality climate information. CMIP results have been used in a very large number of scientific studies that make them a cornerstone of IPCC assessment reports. Danish, Finnish, Norwegian and Swedish modeling groups have committed to participate in phase 6 of CMIP (CMIP6).
+The regional counterpart to CMIP is the Coordinated Regional Downscaling Experiment ([CORDEX](https://www.cordex.org/)) endorsed by the WCRP that has produced a large ensemble of RCM integrations at high horizontal resolution for all continents. The CORDEX results are now being used worldwide for climate impact studies and climate change adaptation work.
+
+### The ESMValTool
+The Earth System Model eValuation Tool ([ESMValTool](https://www.esmvaltool.org/index.html)) is a community diagnostics and performance metrics tool for the evaluation of ESMs that allows for routine comparison of single or multiple models, either against predecessor versions or against observations. The ESMValTool is a community effort open to both users and developers encouraging open exchange of diagnostic source code and evaluation results from the CMIP ensemble.
+
+### The Earth System Grid Federation
+Climate models produce very large amounts of output data that needs to be post-processed and quality-checked before it can be distributed to climate researchers, those working with climate impacts and other users working with climate adaptation measures. This data handling poses a major challenge to the climate modeling community as data providers. To meet the increasing needs from the climate modeling community to archive and distribute climate data the Earth System Grid Federation ([ESGF](https://esgf.llnl.gov/)) was launched in the US in the late 1990s. CMIP and CORDEX now use the ESGF for distribution of climate data. Recently Danish, Norwegian, Finnish and Swedish ESGF nodes have been set up that now hold considerable amounts of data. Through its first phases, the ESGF grew into a Petabyte facility and it is foreseen that this will continue to increase further with the next phases of CMIP and CORDEX. It is clear that the ESGF system is the main infrastructure for archiving and distributing climate data for the foreseeable future and future developments are expected to support this system.
 
 
 ## The Nordics and NeIC
@@ -36,64 +43,66 @@ Is there scope for a collaboration project to support/develop/help Nordic resear
 ### Activities
 
 - **Activity A**: Model analysis and diagnostics focused on the Nordic regions
-- **Activity B**: FAIR climate data for norESM, EC-EARTH and GISS modelE
-- **Activity C**: ESM workflows for efficiently running NorESM, EC-EARTH and GISS modelE on euroHPC
+- **Activity B**: FAIR climate data for norESM, EC-EARTH and GISS modelIE
+- **Activity C**: ESM workflows for efficiently running NorESM, EC-EARTH and GISS modelIE on EuroHPC
 
 
-#### Activity A:
+#### Activity A: Model analysis and diagnostics focused on the Nordic regions
 
+*Partners*: **MetNo**, FMI, ???
 
-Remove comittment on the development of new ESMValTool diagnostic modules but put more emphasis on the usage of ESMValTool with a focus on the Nordic countries.
-
-- Enable the development of new diagnostic modules in ESMValTool (MetNo lead)
-- Tutorial or sharing expertise on these particular aspects
-
-- Design 3 ESMValTool diagnostic modules of interest to the Nordic countries
-- Development of diagnostic modules of interest to the Nordic countries
-- Deployment of the diagnostic modules
-- Development and publications of diagnostic workflows (for instance in the Galaxy Toolshed) to demonstrate the usability of the 3 newly developed ESMValTools for EC-EARTH, NorESM and GISS modelE 
-- Development of educational material for using the 3 new ESMValTool and associated workflows
+The main objective of this activity is to develop expertise on ESMValTool within the Nordic countries and enable the development of new diagnostic modules. 
 
 **Milestones and deliveries**
 
-- 3 ESMValTool diagnostic modules of interest to Nordic countries (eg, polar lows, European and Greenland blocking events) with strong emphasis on (high-latitude) observations (and "observation simulators" to some extent) 
-- A Common platform for common EC-EARTH, NorESM and GISS modelE analysis comparisons for Nordics to facilitate scientific collaboration
-- 3 published diagnostic workflows applicable to norESM, EC-EARTH and GISS modelE
-- 1 online tutorial for learning and running the new ESMValTool workflows
-- 1 workshop/hackathon on how to use ESMValTool and how applicable it can be to the Nordic countries
+- **A-1**: 1 workshop/hackathon to discuss about how to use ESMValTool with a focus on the Nordic countries and collect user requirements for the two training materials.
+- **A-2**: 1 online tutorial on how to best use ESMValTool diagnostic tools for the Nordic countries (eg, polar lows, European and Greenland blocking events) with strong emphasis on (high-latitude) observations (and "observation simulators" to some extent) 
+- **A-3**: 1 online tutorial on how to develop new diagnostic modules in ESMValTool that are common to EC-EARTH, NorESM and GISS modelIE. The main objective is to facilitate analysis comparisons for Nordics for scientific collaborations.
 
 #### Activity B: FAIR Climate data for Nordics
 
-- ESGF related activities (to be described)
-	- Involvement of ESGF admin to enable FAIR climate data
-	- Strenghen existing ESGF networking activities in the Nordics (Norway, Sweden, Denmark and Finland)
-	
-- How can we apply current practices for simulation outside CMIP?
-	- Data stewarship workshop (GO-FAIR) 
-	- EOSC-Nordic & NICEST 
+*Partners*: **NSC**, DMI, CSC, ????
 
-- Is it possible to use existing tools ESDOC, ESGF to make our data FAIR?
+The main objective of this activity is to define a clear roadmap to FAIR climate modeling data in the Nordics. This activity will be strongly linked to EOSC-Nordic, in particular WP4 "FAIR data" and WP5 "Open Research demonstrators". 
 
-- Analysis on the state of the art of FAIR data in Climate and existing tool to assess
-		- ESDOC analysis, can we use ESDOC for Nordic other climate simulations, does it need to be expanded? 
-		- Make sure current initiatives are taken into account
-		- How applicable is it outside CMIP?
-- FAIR Climate data in practice
-	- Implementation of the recommendations, at least in "Demo" mode to demonstrate and validate the chosen approach
-	- Training
+Two main tasks have been identified:
+
+**Task B-1: Support for Nordic ESGF hosting of CMIP6 data**
+
+Danish, Finnish, Norwegian and Swedish HPC providers currently host ESGF nodes. Although there have been considerable improvements in the ESGF software, the deployment and reliable maintenance of an ESGF node requires experience and a deep technical understanding of the hardware and ESGF software. In addition, knowledge of climate model output formats, project data reference syntax and controlled vocabularies (e.g.CMIP6) is also required. This sub-activity will continue to strengthen the collaborative efforts, knowledge sharing and skills development initiated in the NICEST project regarding the deployment and administration of ESGF nodes. 
+
+Regular (monthly) virtual meetings for the Nordic ESGF operations team will be organized and minutes will be publicly available. 
+
+
+**Task B-2: FAIR climate modeling data for Nordics**
+
+Beyond CMIP6 and CORDEX, there are Nordic and national projects that generate valuable climate data. The management of these outputs should follow FAIR and open principles. The aim of this sub-activity is to investigate whether the tools (including ES-DOC, CF, CMOR, ESGF) and techniques for managing CMIP6 data can be reused in Nordic and national projects to ensure the valuable outputs from such projects are FAIR and open. This will be achieved by bringing together data generators (ESM modelers), data managers (ESGF) and FAIR data specialists. 
 
 **Milestones and deliveries**
 
-- 1  face to face training for ESGF publication and regular virtual meeting for ESGF admin
-- 1  face to face training for learning how to publish on ESGF node 
-- 1 hackathon with FAIR specialists and ESM specialists to understand what needs to be done for making Climate data FAIR (for norESM, EC-EARTH and GISS modelE)
-- 1 deliverable on recommendation for FAIR data in Climate (based on ESDOC analysis and hackathon).
-- 1 training material on how to generate FAIR climate data (and metadata) FAIR
-- 1 Train the Trainer workshop on FAIR climate data using the training material developed within the project (e.g. https://indico.neic.no/event/56/).
-- 1 Data Management Plan Template for Nordic Climate Data
+- **B-1.1**: Online minutes from all Nordic ESGF operation meetings (one per month for all the duration of the project i.e. 36) 
+- **B-1.2**: 1  face to face training for Nordic ESGF operations team on the ESGF CMIP6 publication process.  
+- **B-2.1**: 1 hackathon with FAIR experts and ESM specialists to understand what needs to be done for making Climate data FAIR (for norESM, EC-EARTH and GISS modelE). 
+- **B-2.2**: Report on knowledge/skills gap analysis and suggested roadmap to FAIR Nordic climate modeling data
+- **B-2.3**: 1 Data Management Plan Template to support FAIR Nordic Climate Data
+- **B-2.4**: 1 training material on how to generate FAIR climate data (and metadata)
+- **B-2.5**: 1 Data stewardship workshop for FAIR climate data
 
 
 #### Activity C: ESM workflows for efficiently running both NorESM, EC-EARTH and GISS modelE on EuroHPC
+
+The main objective of this activity is to develop expertise on how to run efficiently ESM workflows and facilitate the porting and deployment of Nordic ESMs on future HPCs, in particular the EuroHPC. Two main tasks have been identified:
+
+**Task C-1**: Reproducible workflows for deploying and running ESM on future HPCs
+
+As part of this task an analysis of existing workflow Management systems (cylc, galaxy, snakemake, etc.) will be done and will be the basis for the definition of Nordic ESM workflow Management Systems. Mock-ups for NorESM, EC-EARTH and GISS modelIE workflows will be made available by mid-term and will facilitate benchmarking of Nordic ESMs on new HPCs and ease the deployment of Nordic ESMs on EuroHPCs. To improve reproducibility, package management system and environment management system such as conda will be tested with NorESM, EC-EARTH and GISS modelIE and containers for running these models will be deployed. The performance achieved by the containerized models will be published and made publicly available.
+
+
+**Task C-2**: Efficiency of Nordic ESMs on future euroHPC
+
+Having a common framework for analyzing the performance of Nordic ESMs can considerably reduce the cost (computing and energy efficiency) for running climate models and give us a competitive advantage for running on the future EuroHPC. 
+
+This task will focus on best practices for performance and productivity of Nordic ESMs and on understanding what we need to do to be able to run on EuroHPC.
 
 - Define requirements for efficient and useful ESM workflows
 - Analysis of existing workflow tools (cylc, galaxy, snakemake, etc.) and how they fit to our requirements
@@ -104,25 +113,15 @@ Remove comittment on the development of new ESMValTool diagnostic modules but pu
 	
 **Milestones and deliveries**
 
-- 1 training material on workflow tools for ESM (cylc, galaxy or snakemake)
-- 1 training material on performance analysis for NorESM, EC-EARTH and GISS modelE
-- Best practices guides:
-	- on how to run ESM 
-	- on how to evaluate ESM when porting on new machine, especially for EuroHPC
-- How much development would require our models (EC-EARTH, norESM) for running on the next EuroHPC
-	- Analysis on what needs to be done and identify bottlenecks for all involved models
-		- I/O efficiency
-		- lack of GPU support
-	- Understanding on what we can do and involvement with Nordic EuroHPC
-(- Containerization (singularity/docker) for running NorESM, EC-EARTH and GISS modelE) <-- To clarify
+- **C-1.1**: 1 deliverable/report on Analysis of the Nordic ESM community needs for ESM workflow management Systems (cylc, galaxy, snakemake, etc.).
+- **C-1.2**: 1 online training material for creating ESM workflows (cylc, galaxy or snakemake)
+- **C-1.3**: 1 online tutorial on best practices for package management system and environment management system for Nordic ESMs.
+- **C-1.4**: Publication of conda recipes and containers (docker, singularity) for norESM, EC-EARTH and GISS modelIE (github, conda-forge)
+- **C-2.1**: 1 workshop (face to face meeting) with national HPC providers to discuss nordic ESM involvement in EuroHPC. 
+- **C-2.2**: Best practice guides (for research and production) on how to evaluate performance of Nordic ESMs
+- **C-2.3**: Performance analysis of Nordic ESMs and comparisons between containerized versions.
+- **C-2.4**: Reports on bottlenecks that would hindrance the efficient usage of Nordic ESMs on EuroHPC and possible remediation actions (I/Os, adding GPU support, etc.) with a clear information on costs (PMs, etc.).
 
-**CLARIFY SUB-ACTIVITY ABOUT BENCHMARK**
-
-- Common framework for benchmark for EuroHPC with norESM, and EC-EARTH and GISS modelE, 
-	- Investigate whether using a common workflow manager (cylc, galaxy or snakemake) is helpful
-	- Get in touch with Nordic EuroHPC representatives for Benchmark
-- 1 face to face meeting with Nordic EuroHPC representatives to coordinate feedback on requirement for efficient use of resources specifically for the climate community
-- 1 public report on the best approach for using efficiently EuroHPC for the Nordic Climate Community with guidance on performance versus energy efficiency
 
 ## Resources and viability of the anticipated e-infrastructure services
 

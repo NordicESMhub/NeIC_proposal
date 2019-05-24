@@ -97,6 +97,8 @@ The main objective of this activity is to develop expertise on how to run effici
 
 As part of this task an analysis of existing workflow Management systems (cylc, galaxy, snakemake, etc.) will be done and will be the basis for the definition of Nordic ESM workflow Management Systems. Mock-ups for NorESM, EC-EARTH and GISS modelIE workflows will be made available by mid-term and will facilitate benchmarking of Nordic ESMs on new HPCs and ease the deployment of Nordic ESMs on EuroHPCs. To improve reproducibility, package management system and environment management system such as conda will be tested with NorESM, EC-EARTH and GISS modelIE and containers for running these models will be deployed. The performance achieved by the containerized models will be published and made publicly available.
 
+Within High Energy Physics (e.g., CERN LHC), many solutions and services do already exist to tackle complex tasks like workflow management execution with data and compute. Those solutions are being used now by more and more scientific communities. One potential idea can be to identify some use case and evaluate the services available like job management, data catalog and orchestration. A demonstrator will be set up as part of the project.
+
 
 **Task C-2**: Efficiency of Nordic ESMs on future euroHPC
 
@@ -114,6 +116,8 @@ This task will focus on best practices for performance and productivity of Nordi
 **Milestones and deliveries**
 
 - **C-1.1**: 1 deliverable/report on Analysis of the Nordic ESM community needs for ESM workflow management Systems (cylc, galaxy, snakemake, etc.).
+/ Identify and classify services to be deployed for the Nordic ESM community
+Define a simple use case for the demonstrator for distributed computations *on different computing systems and data management.
 - **C-1.2**: 1 online training material for creating ESM workflows (cylc, galaxy or snakemake)
 - **C-1.3**: 1 online tutorial on best practices for package management system and environment management system for Nordic ESMs.
 - **C-1.4**: Publication of conda recipes and containers (docker, singularity) for norESM, EC-EARTH and GISS modelIE (github, conda-forge)
@@ -122,6 +126,9 @@ This task will focus on best practices for performance and productivity of Nordi
 - **C-2.3**: Performance analysis of Nordic ESMs and comparisons between containerized versions.
 - **C-2.4**: Reports on bottlenecks that would hindrance the efficient usage of Nordic ESMs on EuroHPC and possible remediation actions (I/Os, adding GPU support, etc.) with a clear information on costs (PMs, etc.).
 
+
+3 PMs for setting up the services *UiO*
+2 PMs for customizations
 
 ## Resources and viability of the anticipated e-infrastructure services
 

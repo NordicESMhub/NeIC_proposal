@@ -5,6 +5,8 @@
 
 [![NordicESMhub chat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://nordicesmhub.zulipchat.com)
 
+[![DOI](https://zenodo.org/badge/177264881.svg)](https://zenodo.org/badge/latestdoi/177264881)
+
 
 ## Call
 
